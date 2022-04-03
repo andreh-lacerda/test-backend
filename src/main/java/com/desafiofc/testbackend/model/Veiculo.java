@@ -32,5 +32,5 @@ public class Veiculo {
 
     @Column(nullable = false)
     @Enumerated(EnumType.STRING)
-    private Tipo tipo;
+    private TipoVeiculo tipo;
 }

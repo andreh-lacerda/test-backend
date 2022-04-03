@@ -1,5 +1,5 @@
 package com.desafiofc.testbackend.model;
 
-public enum Tipo {
+public enum TipoVeiculo {
     MOTO, CARRO
 }
