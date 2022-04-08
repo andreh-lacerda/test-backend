@@ -1,4 +1,5 @@
 package com.desafiofc.testbackend.model;
+/*
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -35,3 +36,4 @@ public class Endereco {
     private String estado;
     
 }
+*/

@@ -1,6 +1,6 @@
 package com.desafiofc.testbackend.repository;
 
-import java.util.List;
+import java.util.Optional;
 
 import com.desafiofc.testbackend.model.Estabelecimento;
 
@@ -10,5 +10,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface EstabelecimentoRepository extends JpaRepository<Estabelecimento, Long> {
-    List<Estabelecimento> findAllByIdEstabelecimento(@Param("id") Long id);
+    Optional<Estabelecimento> findById(@Param("id") Long id);
 }
